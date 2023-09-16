@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Atlantica</title>
+    <style>
+      table,
+      th,
+      td {
+        border: 1px solid black;
+      }
+    </style>
+  </head>
+
+  <body>
+    <header>
+      <h1>Atlantica</h1>
+      <p>A city where dreams come true</p>
+    </header>
+    <hr />
+    <nav>
+      <a href="#city-description"> Description</a>
+      <span>|</span>
+      <a href="#attractions">Attractions</a>
+      <span>|</span>
+      <a href="#city-statistics">Statistics</a>
+      <span>|</span>
+      <a href="#citizen-feedback">Feedback</a>
+      <span>|</span>
+      <a href="#quotes-from-citizens">Quotes</a>
+      <span>|</span>
+      <a href="#contact">Contact</a>
+    </nav>
+    <hr />
+    <section id="city-description">
+      <h2>Discover Atlantica</h2>
+      <img src="./assets/images.jpeg" alt="Dream City" />
+      <p>
+        Atlantica, the city where the horizon merges the sky with the ocean,
+        offering dreams a canvas as vast as the sea.
+      </p>
+    </section>
+    <hr />
+    <section id="attractions">
+      <h2>Attractions</h2>
+      <h3>Main Attractions</h3>
+      <ol>
+        <li>Atlantis Tower</li>
+        <li>Deap Sea Museum</li>
+        <li>The Ocean Bridge</li>
+      </ol>
+
+      <h3>Local Favorites</h3>
+      <ul>
+        <li>Merman's Street</li>
+        <li>Neptune's Diner</li>
+        <li>
+          Atlantica Beach
+          <ul>
+            <li>North Beach</li>
+            <li>Reef Bay</li>
+            <li>Mermaid Cove</li>
+          </ul>
+        </li>
+      </ul>
+    </section>
+    <hr />
+    <section id="city-statistics">
+      <h2>City Statistics</h2>
+      <table>
+        <tr>
+          <th>Attribute</th>
+          <th>Value</th>
+        </tr>
+        <tr>
+          <td>Population</td>
+          <td>5 Million</td>
+        </tr>
+        <tr>
+          <td>Landmarks</td>
+          <td>25</td>
+        </tr>
+        <tr>
+          <td>Parks</td>
+          <td>18</td>
+        </tr>
+        <tr>
+          <td>Schools</td>
+          <td>120</td>
+        </tr>
+        <tr>
+          <td>Beaches</td>
+          <td>7</td>
+        </tr>
+      </table>
+    </section>
+    <hr />
+    <section id="citizen-feedback">
+      <h2>Citizen Feedback</h2>
+      <form action="#">
+        <label for="name">Name:</label>
+        <input type="text" name="name" required />
+        <br />
+        <label for="email">Email:</label>
+        <input type="email" name="email" required />
+        <br />
+        <label for="Age">Age</label>
+        <input type="number" min="1" name="Age" required />
+        <br />
+        <label for="favorite">favorite Attraction:</label>
+        <select name="favorite" id="favorite" required>
+          <option value="Deep Sea Museum">Deep Sea Museum</option>
+          <option value="Atlantis Tower">Atlantis Tower</option>
+          <option value="The Ocean Bridge">The Ocean Bridge</option>
+        </select>
+        <br />
+        <label for="comments">Comments:</label>
+        <textarea name="comments" cols="30" rows="10" required></textarea>
+        <br />
+        <label for="newsletter">Newsletter:</label>
+        <input type="checkbox" name="newsletter" /><span
+          >Subscribe to our newsletter</span
+        ><br />
+        <input type="submit" value="Submit" />
+      </form>
+    </section>
+    <hr />
+    <section id="quotes-from-citizens">
+      <h2>What Citizens Say</h2>
+      <p>
+        "Atlantica's beaches are paradise on Earth. Nothing beats a sunset
+        here!" - Alex
+      </p>
+      <p>
+        "The blend of modern skyscrapers and ancient oceanic history is
+        mesmerizing." - Isabelle
+      </p>
+    </section>
+    <hr />
+    <section id="contact">
+      <h2>Contact</h2>
+      <address style="font-style: italic">
+        Atlantis Tourism Office<br />
+        123 Main Street Dream City, CA 91234<br />
+        <span
+          >Email:<a href="mailto:info@Atlantica.com"
+            >info@Atlantica.com</a
+          ></span
+        >
+        <br />
+        <span>Phone:9534 3344</span>
+      </address>
+    </section>
+    <hr />
+    <footer>
+      <p>Copyright © 2023 Atlantis Tourism Office</p>
+    </footer>
+
+    <hr />
+  </body>
+</html>
